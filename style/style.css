@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*bebas*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); /*poppins*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+header h1 {
+    margin: 10px 20px;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+
+.img {
+    width: 100%;
+    height: calc(80vh);
+    background: url('../media/bg-header-city.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+}
+
+.img svg {
+    width: 45px;
+    height: 45px;
+    background-color: #0f222db0;
+    padding: 5px;
+    border-radius: 50%;
+    align-self:flex-end;
+    position: absolute;
+    transform: translate(calc(50vw - 35px), 25px);
+}
+
+.img-conteudo {
+    color: #fff;
+    margin: auto 100px auto auto;
+    max-width: 300px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f222d;
+}
+
+.img-conteudo h2{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.img-conteudo p{
+    margin: 30px 0 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.card-conteudo {
+    width: 90%;
+    margin: auto;
+}
+
+.card-conteudo h1 {
+    font-size: 50px;
+}
+
+.card-conteudo p {
+    font-size: 28px;
+}
+
+.c2, .c4 {
+    background-color: #0f222d;
+    color: #fff;
+}
+
+.container-team {
+    display: flex;
+}
+
+.img-team {
+    margin-top: 20px;
+}
+
+.img-team img {
+    max-width: 700px;
+    width: 100%;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-content: space-around;
+}
+
+.fotos p {
+    margin: auto 0;
+}
+
+.foto-team {
+    width: 96px;
+    border-radius: 50%;
+    margin: 50px auto;
+}
+
+.values b {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 767px){
+    .fotos {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .img-conteudo {
+        color: #fff;
+        margin: auto 0 0;
+        max-width: 100%;
+        padding: 20px;
+        font-family: 'Poppins', sans-serif;
+        background-color: #0f222d;
+    }
+    .img-conteudo h2 {
+        font-size: 16px;
+    }
+    .img-conteudo p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 374px){
+    .fotos {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
