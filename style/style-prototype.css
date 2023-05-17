@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); /*poppins*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --text-color: #FFFDD0;
+    --bg-color: #001F3D;
+    --btn-color: #003D7A;
+    --dots-color: #005CB8;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.container-logo, .container-menu {
+    margin: 20px auto;
+}
+
+.container-logo {
+    margin-left: 10px;
+    vertical-align: center;
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+header p {
+    margin: 7px 0;
+    display: inline-block;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.btn1 {
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    border: none;
+    margin: 0 10px;
+    min-width: 120px;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+}
+
+.btn1:hover {
+    color: var(--bg-color);
+    background-color: var(--text-color);
+}
+
+.container-opcoes, .container-auth {
+    vertical-align: center;
+}
+
+.container-conteudo {
+    width: 100%;
+    text-align: center;
+    margin-top: 20vh;
+    font-weight: bold;
+}
+
+.container-conteudo h1 {
+    font-size: 90px;
+    margin: 5px;
+}
+
+.container-conteudo p {
+    font-size: 26px;
+    margin: 5px;
+}
+
+.btn-explorar {
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    border: none;
+    margin: 100px 0;
+    padding: 10px 50px;
+    font-size: 28px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+}
+
+.btn-explorar:hover {
+    color: var(--btn-color);
+    background-color: var(--text-color);
+}
+
+/*info*/
+#info, #exp, #city {
+    border-bottom: #FFFDD0 1px solid;
+}
