@@ -24,7 +24,7 @@ header h1 {
 .img {
     width: 100%;
     height: calc(80vh);
-    background: url('../media/bg-header-city.jpg') no-repeat center;
+    background: url('../media/bg-header-city.png') no-repeat center;
     background-size: cover;
     display: flex;
 }
@@ -149,5 +149,4 @@ header h1 {
     .fotos {
         grid-template-columns: 1fr 1fr;
     }
-    
 }

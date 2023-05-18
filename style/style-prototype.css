@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    counter-reset: section;
 }
 
 :root {
@@ -114,4 +115,39 @@ header a {
 /*info*/
 #info, #exp, #city {
     border-bottom: #FFFDD0 1px solid;
+}
+
+.container-conteudo2 {
+    width: 100%;
+    margin-top: 18vh;
+    font-weight: bold;
+    display: flex;
+}
+
+.container-img-left {
+    margin: auto;
+    margin-right: 50px;
+}
+
+.container-list-right {
+    margin: auto;
+    margin-left: 50px;
+    border-left: 2px solid var(--text-color);
+}
+
+.list p {
+    display: flex;
+    list-style-image: url('../media/Vector.png');
+    margin: 15px;
+    padding-left: 40px;
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+}
+
+.list p img {
+    margin: auto 0;
+    margin-right: 60px;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
 }
