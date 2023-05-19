@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --text-color: #FFFDD0;
+    --bg-color: #001F3D;
+    --btn-color: #003D7A;
+    --dots-color: #005CB8;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 19px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg-color) no-repeat ;
+    background-size: 60vh;
+    background-image: url(../media/bg-registro.png);
+    color: #fff;
+    height: 100vh;
+}
+
+.container-conteudo {
+    margin: 25vh auto;
+    margin-right: 100px;
+    width: 45vw;
+}
+
+form {
+    border: 1px solid var(--text-color);
+    border-radius: 20px;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+}
+
+.input-img {
+    text-align: center;
+    font-size: 21px;
+}
+
+.input-img img {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.input-form {
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.inp {
+    background-color: rgba(13, 0, 0, 0.4);
+    border-radius: 50px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.inp img {
+    padding-left: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 32px;
+}
+
+.inp input{
+    display: inline-block;
+    height: 35px;
+    width: 250px;
+    border: none;
+    margin: 10px;
+    background: transparent;
+    color: #fff;
+}
+
+.inp input::placeholder {
+    color: var(--btn-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.inp2 input {
+    padding: 10px 40px;
+    margin: 20px;
+    font-size: 20px;
+    color: var(--text-color);
+    background-color: var(--btn-color);
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+}
+
+.inp2 input:hover {
+    background-color: var(--text-color);
+    color: var(--btn-color);
+}
