@@ -103,9 +103,19 @@ form {
     border-radius: 50px;
     font-weight: bold;
     transition: all 0.2s ease-in;
+    cursor: pointer;
 }
 
 .inp2 input:hover {
     background-color: var(--text-color);
+    color: var(--btn-color);
+}
+
+#voltar {
+    color: var(--dots-color);
+    text-decoration: underline;
+}
+
+#voltar:hover {
     color: var(--btn-color);
 }
