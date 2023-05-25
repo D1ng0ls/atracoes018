@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../style/style-login.css">
-    <title>Atrações 018 | Login</title>
+    <link rel="stylesheet" href="../../style/style-register.css">
+    <title>Atrações 018 | Rgistrar</title>
 </head>
 <body>
     <div class="container-conteudo">
-        <a href="../" style="transform: translateX(535px);">Voltar</a>
+        <a href="../">Voltar</a>
         <form action="post">
+            <div class="input-img">
+                <!-- <input type="file" name="image" id=""> -->
+                <img src="../../media/person-circle.png" alt="icon">
+                <label>Insira sua imagem</label>
+            </div>
             <div class="input-form">
+                <div class="inp inp-name">
+                    <img src="../../media/user.png" alt="">
+                    <input type="text" name="nome" placeholder="Nome">
+                </div>
                 <div class="inp inp-email">
                     <img src="../../media/mail.png" alt="">
                     <input type="email" name="email" placeholder="Email">
@@ -22,9 +31,8 @@
                 </div>
                 <div class="inp2 inp-eviar">
                     <img src="" alt="">
-                    <input type="submit" name="enviar" value="Login" onclick="window.open('../', '_self')">
+                    <input type="submit" name="enviar" value="Cadastrar" onclick="window.open('../', '_self')">
                 </div>
-                <a href="../">Esqueci minha senha</a>
             </div>
         </form>
     </div>

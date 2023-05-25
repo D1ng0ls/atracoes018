@@ -26,9 +26,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: var(--bg-color) no-repeat center top;
-    background-size: 112.2%;
-    background-image: url(../media/bg-login.png);
+    background: var(--bg-color) no-repeat ;
+    background-size: 59.8vh;
+    background-image: url(../media/bg-registro.png);
     color: #fff;
     height: 100vh;
 }
@@ -36,8 +36,7 @@ body {
 .container-conteudo {
     margin: 25vh auto;
     margin-right: 100px;
-    display: flex;
-    flex-direction: column;
+    max-width: 47vw;
 }
 
 form {
@@ -61,6 +60,7 @@ form {
 .input-form {
     text-align: center;
     align-items: center;
+    margin-left: 30px;
 }
 
 .inp {
